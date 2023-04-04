@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Roboto+Condensed&family=Roboto:wght@400;500&family=Tilt+Neon&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- intro section starts here -->
@@ -93,7 +93,7 @@
 
     <!-- lives dependency section starts here -->
     <section class="center-content">
-      <div class="depencency__div">
+      <div class="half-width">
         <h2>
           Their lives depend on <br />
           your donation
@@ -105,9 +105,9 @@
         </p>
         <button class="btn">How to Contribute?</button>
       </div>
-      <div class="depencency__div">
+      <div class="half-width">
         <img
-          id="div__img"
+          class="div__img"
           src="/donate-today-main/images/donation6.jpg"
           alt=""
         />
@@ -116,37 +116,43 @@
     <!-- lives dependency section ends here -->
 
     <!-- to survive section starts here -->
-    <div>
-      <img src="" alt="" />
-    </div>
-    <div>
-      <h2>
-        They need us <br />
-        to survive
-      </h2>
-      <p>
-        Recently flood has taken the livelihood of many people as they can't go
-        out to earn money for their family so it is up to us to help them our
-        brother in need.
-      </p>
-      <button>How to contribute?</button>
-    </div>
+    <section class="center-content">
+      <div class="half-width">
+        <img
+          class="div__img"
+          src="/donate-today-main/images/donation2.jpg"
+          alt=""
+        />
+      </div>
+      <div class="half-width">
+        <h2>
+          They need us <br />
+          to survive
+        </h2>
+        <p>
+          Recently flood has taken the livelihood of many people as they can't
+          go out to earn money for their family so it is up to us to help them
+          our brother in need.
+        </p>
+        <button class="btn">How to contribute?</button>
+      </div>
+    </section>
     <!-- to survive section ends here -->
 
     <!-- get updates section starts here -->
-    <section>
-      <h3>Get My Updates</h3>
+    <section class="center-content updates">
+      <h2>Get My Updates</h2>
       <p>You can receive updates via your gmail</p>
-      <div>
-        <input type="text" />
-        <button>Subscribe</button>
+      <div class="updates__input">
+        <input id="updates__text" type="text" placeholder="Email" />
+        <button id="updates__btn">Subscribe</button>
       </div>
     </section>
     <!-- get updates section ends here -->
 
     <!-- footer starts here -->
     <footer>
-      <h3>Be Humble</h3>
+      <h3 id="footer__humble">Be Humble</h3>
       <small>I'm gonna do it</small>
     </footer>
     <!-- footer ends here -->
