@@ -1,3 +1,4 @@
+
 *{
     box-sizing: border-box;
     font-family: 'Climate Crisis', cursive;
@@ -63,11 +64,11 @@ p{
 .div__img {
     height: 400px;
     border-radius: 15px;
-    filter: blur(2px);
+    filter: saturate(0);
 }
 
 .div__img:hover{
-    filter: blur(0);
+    filter: saturate(1);
 }
 /* universal class ends here */
 
