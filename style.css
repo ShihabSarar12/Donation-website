@@ -188,7 +188,6 @@ p{
     padding: 10px 20px;
     border: none;
     background-color: rgb(214, 214, 214);
-    margin-right: 0px;
     border-radius: 15px 0px 0px 15px;
 }
 
@@ -201,7 +200,6 @@ p{
     color: white;
     border: none;
     border-radius: 0px 15px 15px 0px;
-    margin-left: 0px;
     background-color: orangered;
     padding: 10px 20px;
     cursor: pointer;
