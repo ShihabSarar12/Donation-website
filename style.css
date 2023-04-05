@@ -1,8 +1,6 @@
 
 *{
     box-sizing: border-box;
-    font-family: 'Climate Crisis', cursive;
-    font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -246,10 +244,6 @@ footer{
 }
 
 @media screen and (max-width: 768px){
-    body{
-        background-color: gray;
-    }
-
     .div__img {
         margin-left: 50px;
         transform: scale(1.2);
@@ -288,8 +282,55 @@ footer{
 }
 
 @media screen and (max-width: 600px){
-    body{
-        background-color: red;
+    /* donate section starts here */
+    .donate__amount{
+        display: grid;
+        grid-template-columns: auto auto;
     }
+    .donate__input{
+        width: 300px;
+    }
+    /* donate section ends here */
+    /* donate plan section starts here */
+    .donate-plan__cards{
+        flex-direction: column;
+    }
+
+    .donate-plan__card{
+        width: 350px;
+    }
+    /* dependency section starts here */
+    .div__img{
+        margin-left: 0; 
+        width: 400px;
+        border-radius: 0;
+    }
+    .dependency{
+        width: 100%;
+        height: 550px;
+    }
+    .dependency__img{
+        width: 500px;
+        margin: 100px 0px;
+    }
+    #dependency__content{
+        margin-left: 0;
+        padding: 0px 60px;
+        position: relative;
+    }
+    .dependency__half-width{
+        margin-left: 0px; 
+        width: 300px;
+        overflow: hidden;
+    }
+    #dependency__btn{
+        transform: translate(20px);
+    }
+    /* dependency section ends here */
+    /* get updates starts here */
+    .updates__input{
+        width: 100%;
+    }
+    /* get updates starts here */
 }
 /* Responsiveness ends here */
