@@ -249,6 +249,11 @@ footer{
     body{
         background-color: gray;
     }
+
+    .div__img {
+        margin-left: 50px;
+        transform: scale(1.2);
+    }
     /* dependency responsiveness starts here */
     .dependency{
         width: 600px;
@@ -272,12 +277,13 @@ footer{
         filter: saturate(1);
     }
 
-    .div__img{
-        margin-left: 50px;
-        transform: scale(1.2);
-    }
     /* dependency responsiveness ends here */
-
+    /* survive section starts here */
+    .survive{
+        display: none;
+    }
+    /* survive section ends here */
+    
 
 }
 
